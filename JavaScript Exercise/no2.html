@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="add"></p>
+    <p id="multi"></p>
+    <script>
+      function addNum(num1, num2){
+        return num1+num2;
+      }
+      document.getElementById("add").innerHTML= "The addition of the two numbers is: "+addNum(10,5 );
+    </script>
+    <script>
+      function multiNum(num1, num2){
+        return num1 * num2;
+      }
+      document.getElementById("multi").innerHTML="The multiplication of the two numbers is :"+ multiNum(6, 10);
+    </script>
+    <p id="subtract"></p>
+    <script>
+      function subtractNum(num1, num2){
+        return num1 - num2;
+      }
+      document.getElementById("subtract").innerHTML= "The subtraction of the two numbers is :"+subtractNum(6, 10);
+    </script>
+    <p id="divide"></p>
+    <script>
+      function divideNum(num1, num2){
+        return num1/num2;
+      }
+      document.getElementById("divide").innerHTML= "The division of the two numbers is :"+divideNum(10, 5);
+    </script>
+  </body>
+</html>
